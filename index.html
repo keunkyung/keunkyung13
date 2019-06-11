@@ -14,18 +14,12 @@
 			.layer4{width: 70%; display: block; position: absolute; top: 1600px; left: 295px;}
 			.layer5{width: 75%; display: block; position: absolute; top: 1970px; left: 80px;}
 
-			.layer6{width: 20%; display: block; position: absolute; top: 3050px; left: 70px; transition: all 1s;}
-			.layer6:hover{ opacity: 0.5; transform: rotateY(360deg);}
-
-			.layer7{width: 15%; display: block; position: absolute; top: 3350px; left: 85px;}
-			.layer8{width: 20%; display: block; position: absolute; top: 3050px; left: 430px; transition: all 1s;}
-			.layer8:hover{ opacity: 0.5; transform: rotateY(360deg);}
-
-			.layer9{width: 16%; display: block; position: absolute; top: 3355px; left: 440px;}
-			.layer10{width: 20%; display: block; position: absolute; top: 3050px; left: 780px; transition: all 1s;}
-			.layer10:hover{ opacity: 0.5; transform: rotateY(360deg);}
-
-			.layer11{width: 24%; display: block; position: absolute; top: 3355px; left: 760px;}
+			.layer6{width: 20%; display: block; position: absolute; top: 3050px; left: 70px;}	
+			.layer7{width: 15%; display: block; position: absolute; top: 3350px; left: 85px; animation: hi 1s infinite;}
+			.layer8{width: 20%; display: block; position: absolute; top: 3050px; left: 430px;}
+			.layer9{width: 16%; display: block; position: absolute; top: 3355px; left: 440px; animation: hi 1s infinite;}
+			.layer10{width: 20%; display: block; position: absolute; top: 3050px; left: 780px;}
+			.layer11{width: 24%; display: block; position: absolute; top: 3355px; left: 760px; animation: hi 1s infinite;}
 
 			.layer12{width: 30%; display: block; position: absolute; top: 4000px; left: 50px;}
 			.layer13{width: 28%; display: block; position: absolute; top: 4200px; left: 70px; transition: all 1s; opacity: 0.2;}
@@ -77,12 +71,14 @@
 
 			.layer38{width: 10%; display: block; position: absolute; top: 8730px; left: 850px;}
 
-			.layer39{width: 80%; display: block; position: absolute; top: 11000px; left: 80px;}
+			.layer39{width: 80%; display: block; position: absolute; top: 11000px; left: 80px; animation: hi 1s infinite;}
 			.layer40{width: 100%; display: block; position: absolute; top: 11150px; left: -65px;}
 			@keyframes ro{
-			to{transform: rotate3d(1,0,1,360deg); left: 0px;}
+			to{transform: rotate3d(1,0,1,360deg); left: 0px;}}
 
-		}
+			@keyframes hi{
+			to{opacity: 0;}}
+
 
 
 		img{margin: auto; width: 85%; text-align: center; float: center; padding-left: 67px;}
